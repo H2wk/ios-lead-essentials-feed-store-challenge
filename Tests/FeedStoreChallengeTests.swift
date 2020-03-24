@@ -5,6 +5,20 @@
 import XCTest
 import FeedStoreChallenge
 
+class InMemoryFeedStore : FeedStore {
+    func deleteCachedFeed(completion: @escaping InMemoryFeedStore.DeletionCompletion) {
+        
+    }
+    
+    func insert(_ feed: [LocalFeedImage], timestamp: Date, completion: @escaping InMemoryFeedStore.InsertionCompletion) {
+        
+    }
+    
+    func retrieve(completion: @escaping InMemoryFeedStore.RetrievalCompletion) {
+        
+    }
+}
+
 class FeedStoreChallengeTests: XCTestCase, FeedStoreSpecs {
 	
 //
@@ -88,6 +102,7 @@ class FeedStoreChallengeTests: XCTestCase, FeedStoreSpecs {
 	// - MARK: Helpers
 	
 	private func makeSUT() -> FeedStore {
+        
 		fatalError("Must be implemented")
 	}
 	
