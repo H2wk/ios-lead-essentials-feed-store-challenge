@@ -34,10 +34,6 @@ We advise you to invest some time and effort to produce a clean and well-present
 
 Finally, add to this README file:
 
-### Comments and remarks you think other developers will find useful.
-
-...
-
 ### The Dependency Diagram demonstrating the architecture of your solution. 
-
+![Feed Store Challange Module Diagram](FeedStoreChallengeModuleDiagram.png)
 ...
